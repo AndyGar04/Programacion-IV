@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.2">
   <diagram name="Página-1" id="SDIxHXBPP-fVtb4EgMxf">
-    <mxGraphModel dx="1982" dy="631" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1613" dy="729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,7 +13,7 @@
         <mxCell id="ZPcoJ0gb0Kkz47UQnkc6-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="ZPcoJ0gb0Kkz47UQnkc6-5">
           <mxGeometry y="90" width="160" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="ZPcoJ0gb0Kkz47UQnkc6-8" value="+ constructor(patente: string, color:string, modelo:string, cantKm:number)&lt;div&gt;&lt;br&gt;+ &lt;i&gt;avanzar(): void&lt;br&gt;+ constultarKm(): number&lt;/i&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZPcoJ0gb0Kkz47UQnkc6-5">
+        <mxCell id="ZPcoJ0gb0Kkz47UQnkc6-8" value="+ constructor(patente: string, color:string, modelo:string, cantKm:number)&lt;div&gt;&lt;br&gt;+ &lt;i&gt;avanzar(): void&lt;br&gt;+ constultarKm(): void&lt;/i&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZPcoJ0gb0Kkz47UQnkc6-5">
           <mxGeometry y="110" width="160" height="110" as="geometry" />
         </mxCell>
         <mxCell id="ZPcoJ0gb0Kkz47UQnkc6-10" value="Moto" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -25,7 +25,7 @@
         <mxCell id="ZPcoJ0gb0Kkz47UQnkc6-12" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="ZPcoJ0gb0Kkz47UQnkc6-10">
           <mxGeometry y="52" width="250" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="ZPcoJ0gb0Kkz47UQnkc6-13" value="+constructor (cilindrada:number)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ consultarCilindrada(): number&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ consultarBateria():&amp;nbsp;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZPcoJ0gb0Kkz47UQnkc6-10">
+        <mxCell id="ZPcoJ0gb0Kkz47UQnkc6-13" value="+constructor (cilindrada:number)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ consultarCilindrada(): number&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ consultarBateria(): void&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZPcoJ0gb0Kkz47UQnkc6-10">
           <mxGeometry y="60" width="250" height="140" as="geometry" />
         </mxCell>
         <mxCell id="ZPcoJ0gb0Kkz47UQnkc6-14" value="Camioneta" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -61,10 +61,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ZPcoJ0gb0Kkz47UQnkc6-22" value="«interface»&lt;br&gt;&lt;b&gt;Electrico&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-50" y="190" width="110" height="30" as="geometry" />
+          <mxGeometry x="-80" y="190" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ZPcoJ0gb0Kkz47UQnkc6-23" value="+consultarBateria" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-50" y="220" width="110" height="30" as="geometry" />
+        <mxCell id="ZPcoJ0gb0Kkz47UQnkc6-23" value="+consultarBateria(): void" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="220" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZPcoJ0gb0Kkz47UQnkc6-25" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZPcoJ0gb0Kkz47UQnkc6-13">
           <mxGeometry width="160" relative="1" as="geometry">
